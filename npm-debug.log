@@ -1,6 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Users\\valikonen\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
 1 verbose cli   'start' ]
 2 info using npm@3.10.5
 3 info using node@v8.1.0
@@ -23,7 +24,7 @@
 12 verbose stack     at Signal.wrap.onsignal (internal/process.js:207:44)
 13 verbose cwd E:\Learn\NodeJS\WesBos
 14 error Windows_NT 10.0.15063
-15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\valikonen\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\valikonen\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
 16 error node v8.1.0
 17 error npm  v3.10.5
 18 error code ENOSYS
