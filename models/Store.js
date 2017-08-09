@@ -12,9 +12,9 @@ const storeSchema = new mongoose.Schema({
     slug: String,
     description: {
         type: String,
-        trim: true,
-        tags: [String]
-    }
+        trim: true       
+    },
+     tags: [String]
 });
 
 storeSchema.pre("save", function(next) {
