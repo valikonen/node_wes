@@ -11,6 +11,7 @@ exports.addStore = (req, res) => {
 
 exports.createStore = async ( req, res ) => {
     const store = new Store(req.body);
+    console.log("req.body: ", req.body);
     await store.save();
     res.redirect("/");
 }
